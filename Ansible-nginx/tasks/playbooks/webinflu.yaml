@@ -1,0 +1,4 @@
+---
+- hosts: Influx
+  roles:
+   - Influx

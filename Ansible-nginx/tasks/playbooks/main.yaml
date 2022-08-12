@@ -1,0 +1,3 @@
+- include: playbooks/nginx.yaml
+- include: playbooks/service.yaml
+- include: playbooks/templatecopy.yaml

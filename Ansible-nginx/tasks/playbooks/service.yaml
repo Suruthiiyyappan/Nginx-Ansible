@@ -1,0 +1,5 @@
+- name: start service
+  become: true
+  apt:
+    name: nginx
+    state: started

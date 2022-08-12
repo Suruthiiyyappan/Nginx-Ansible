@@ -1,0 +1,5 @@
+- name: Copy Nginx config fie
+  become: true
+  copy:
+    src: nginx.j2
+    dest: /etc/nginx/sites-enabled
